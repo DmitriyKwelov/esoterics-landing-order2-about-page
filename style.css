@@ -1,0 +1,1248 @@
+@font-face {
+    font-family: 'Anglecia Pro Dsp';
+    src: local('fonts/Anglecia Pro Display Italic'), local('fonts/AngleciaProDisplay-Italic'), url('fonts/Angleciaprodisplayitalic.woff2') format('woff2'), url('fonts/Angleciaprodisplayitalic.woff') format('woff'), url('fonts/Angleciaprodisplayitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Anglecia Pro Dsp';
+    src: local('fonts/Anglecia Pro Display Regular'), local('fonts/AngleciaProDisplay-Regular'), url('fonts/Angleciaprodisplayregular.woff2') format('woff2'), url('fonts/Angleciaprodisplayregular.woff') format('woff'), url('fonts/Angleciaprodisplayregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('fonts/CeraPro-Light.eot');
+    src: local('fonts/Cera Pro Light'), local('fonts/CeraPro-Light'),
+        url('fonts/CeraPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CeraPro-Light.woff2') format('woff2'),
+        url('fonts/CeraPro-Light.woff') format('woff'),
+        url('fonts/CeraPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('fonts/CeraPro-MediumItalic.eot');
+    src: local('fonts/Cera Pro Medium Italic'), local('fonts/CeraPro-MediumItalic'),
+        url('fonts/CeraPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CeraPro-MediumItalic.woff2') format('woff2'),
+        url('fonts/CeraPro-MediumItalic.woff') format('woff'),
+        url('fonts/CeraPro-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('fonts/CeraPro-RegularItalic.eot');
+    src: local('fonts/Cera Pro Regular Italic'), local('fonts/CeraPro-RegularItalic'),
+        url('fonts/CeraPro-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CeraPro-RegularItalic.woff2') format('woff2'),
+        url('fonts/CeraPro-RegularItalic.woff') format('woff'),
+        url('fonts/CeraPro-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('fonts/CeraPro-BlackItalic.eot');
+    src: local('fonts/Cera Pro Black Italic'), local('fonts/CeraPro-BlackItalic'),
+        url('fonts/CeraPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CeraPro-BlackItalic.woff2') format('woff2'),
+        url('fonts/CeraPro-BlackItalic.woff') format('woff'),
+        url('fonts/CeraPro-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('fonts/CeraPro-Medium.eot');
+    src: local('fonts/Cera Pro Medium'), local('fonts/CeraPro-Medium'),
+        url('fonts/CeraPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CeraPro-Medium.woff2') format('woff2'),
+        url('fonts/CeraPro-Medium.woff') format('woff'),
+        url('fonts/CeraPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('fonts/CeraPro-BoldItalic.eot');
+    src: local('fonts/Cera Pro Bold Italic'), local('fonts/CeraPro-BoldItalic'),
+        url('fonts/CeraPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CeraPro-BoldItalic.woff2') format('woff2'),
+        url('fonts/CeraPro-BoldItalic.woff') format('woff'),
+        url('fonts/CeraPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('fonts/CeraPro-ThinItalic.eot');
+    src: local('fonts/Cera Pro Thin Italic'), local('fonts/CeraPro-ThinItalic'),
+        url('fonts/CeraPro-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CeraPro-ThinItalic.woff2') format('woff2'),
+        url('fonts/CeraPro-ThinItalic.woff') format('woff'),
+        url('fonts/CeraPro-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('fonts/CeraPro-LightItalic.eot');
+    src: local('fonts/Cera Pro Light Italic'), local('fonts/CeraPro-LightItalic'),
+        url('fonts/CeraPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CeraPro-LightItalic.woff2') format('woff2'),
+        url('fonts/CeraPro-LightItalic.woff') format('woff'),
+        url('fonts/CeraPro-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('fonts/CeraPro-Black.eot');
+    src: local('fonts/Cera Pro Black'), local('fonts/CeraPro-Black'),
+        url('fonts/CeraPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CeraPro-Black.woff2') format('woff2'),
+        url('fonts/CeraPro-Black.woff') format('woff'),
+        url('fonts/CeraPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('fonts/CeraPro-Bold.eot');
+    src: local('fonts/Cera Pro Bold'), local('fonts/CeraPro-Bold'),
+        url('fonts/CeraPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CeraPro-Bold.woff2') format('woff2'),
+        url('fonts/CeraPro-Bold.woff') format('woff'),
+        url('fonts/CeraPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('fonts/CeraPro-Regular.eot');
+    src: local('fonts/Cera Pro Regular'), local('fonts/CeraPro-Regular'),
+        url('fonts/CeraPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CeraPro-Regular.woff2') format('woff2'),
+        url('fonts/CeraPro-Regular.woff') format('woff'),
+        url('fonts/CeraPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('fonts/CeraPro-Thin.eot');
+    src: local('fonts/Cera Pro Thin'), local('fonts/CeraPro-Thin'),
+        url('fonts/CeraPro-Thin.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CeraPro-Thin.woff2') format('woff2'),
+        url('fonts/CeraPro-Thin.woff') format('woff'),
+        url('fonts/CeraPro-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+html{
+    font-size: 16px;
+    font-family: 'Cera Pro', sans-serif
+}
+body{
+    background: #F6F6F2;
+}
+h1{
+    font-family: 'Anglecia Pro Dsp', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    line-height: 130%;
+    color: #35424B;
+}
+h2{
+    font-family: 'Anglecia Pro Dsp', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    line-height: 130%;
+    color: #35424B;
+}
+h3{
+    font-family: 'Anglecia Pro Dsp', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.875rem;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+h6{
+    font-family: 'Cera Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 200%;
+    text-decoration-line: underline;
+    color: #C5AB90;
+    margin: 40px 0 0 0;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.z-index-11{
+    z-index: 11;
+}
+#first-section{
+    padding: 0 0 120px 0;
+}
+#header-content{
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 11;
+}
+#right-header-content{
+    display: flex;
+    align-items: center;
+}
+#right-header-content p{
+    font-family: 'Cera Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 150%;
+    color: #35424B;
+    margin: 0 0 0 10px;
+}
+#left-main-conent{
+    padding: 60px 0 90px 0;
+}
+#first-section-content p{
+    font-family: 'Cera Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 150%;
+    color: #35424B;
+
+}
+#bg-left-first-screen{
+    position: absolute;
+    left: 0;
+    z-index: -11;   
+}
+.color-C5AB90{
+    color: #C5AB90;
+}
+.btn-with-text {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-with-text p{
+    padding-left: 30px;
+    margin: 0;
+}
+.btn{
+    width: 400px;
+    height: 80px;
+    background: #C5AB90;
+    border: none;
+    font-family: 'Cera Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+}
+.btn:hover{
+    color: #fff;
+}
+.main-right-img{
+    position: relative;
+}
+.main-right-img img{
+    position: absolute;
+    right: -50px;
+}
+.main-picture-mb{
+    display: none;
+}
+.gray-row-first-s{
+    width: 100%;
+    background: #35424B;
+}
+.container-gray-row{
+    max-width: 970px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.container-gray-row h3{
+    margin-bottom: 30px;
+}
+.content-gray-row{
+    width: 100%;
+    padding: 65px 0;
+}
+#down-content-gray-row-first-s{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#down-content-gray-row-first-s p{
+    font-family: 'Cera Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.gray-row-items{
+    display: flex;
+}
+.gray-row-item{
+    display: flex;
+    margin-left: 30px;
+}
+.gray-row-item p{
+    margin-left: 36px;
+}
+.main-description{
+    margin: 40px 0 50px 0;
+}
+.bx-check-double-main{
+    margin-top: 80px;
+}
+.bx-check-double-main p{
+    font-family: 'Cera Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.375rem;
+    line-height: 150%;
+    color: #35424B;
+}
+#second-section{
+    background: #FFFFFF;
+    padding: 110px 0;
+}
+.left-second-s-content{
+    padding-right: 40px;
+}
+.right-second-s{
+    margin-top: 10px;
+}
+.second-s-descriotion{
+    margin: 40px 0 60px 0;
+}
+#second-section-content p{
+    font-family: 'Cera Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.12rem;
+    line-height: 150%;
+    color: #35424B;
+}
+#second-section-content a{
+    font-family: 'Cera Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 150%;
+    text-decoration-line: underline;
+    color: #C5AB90;
+}
+.second-s-picture{
+    margin-top: 60px;
+    width: 100%;
+}
+.second-picture-s-mb{
+    display: none;
+}
+.main-content-third-s{
+    display: flex;
+    justify-content: space-between;
+}
+.bg-picture-third-s{
+    position: absolute;
+    z-index: -1;
+    left: 0;
+}
+#third-section{
+    padding: 120px 0;
+    position: relative;
+}
+.third-section-description{
+    font-family: 'Cera Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 150%;
+    color: #35424B;
+    max-width: 570px;
+    margin: 40px 0 10px 0;
+}
+.item-list-third-s{
+    display: flex;
+}
+.item-list-third-s p{
+    font-family: 'Cera Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 150%;
+    color: #35424B;
+}
+.item-list-third-s {
+    margin-top: 40px;
+}
+.number-item-list-third-s{
+    font-family: 'Anglecia Pro Dsp', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 130%;
+    color: #C5AB90;
+    margin-right: 40px;
+}
+.white-rectangle{
+    background: #fff;
+    padding: 34px 65px;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+.white-rectangle p{
+    font-family: 'Cera Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 150%;
+    color: #35424B;
+    margin: 0 0 0 55px;
+}
+.bx-check-double{
+    margin-bottom: 40px;
+}
+.bx-check-double p{
+    margin-top: 12px;
+}
+#fourth-section {
+    background: #35424B;
+    padding: 120px 0 120px 0;
+    position: relative;
+    z-index: 111;
+}
+#fourth-s-bg-picture{   
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+.fourth-section-picture-mb{
+    display: none;
+}
+#fourth-section h2{
+    color: #fff;
+}
+.fourth-s-description{
+    font-family: 'Cera Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin: 40px 0 60px 0;
+}
+.bx-check-double-fourth-s-item{
+    display: flex;
+    align-items: flex-start;
+}
+.bx-check-double-fourth-s-item p{
+    font-family: 'Cera Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin: 0 0 0 25px;
+}
+.fourth-section-picture{
+    position: relative;
+}
+.fourth-section-picture img{
+    position: absolute;
+    width: 150%;
+    top: -50px;
+}
+.btn-with-text-fourth-s{
+    margin-top: 60px;
+}
+.text-fourth-s-right-btn{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.btn-with-text-fourth-s p{
+    font-family: 'Cera Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin: 0 0 0 25px;
+}
+.btn-with-text-fourth-s img{
+    width: 27px;
+    height: 27px;
+}
+.list-fourth-section p{
+    margin: 0 0 0 30px;
+    font-family: 'Cera Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 150%;
+    color: #FFFFFF;
+    max-width: 350px;
+}
+.fourth-s-right-content p{
+    margin-bottom: 86px;
+    color: #fff;
+}
+#fifth-section{
+    padding: 120px 0;
+}
+.fifth-s-right{
+    padding-left: 30px;
+}
+.picture-fifth-s{
+    position: relative;
+}
+.picture-fifth-s img{
+    position: absolute;
+}
+.fifth-s-description{
+    margin: 40px 0 60px 0;
+    font-family: 'Cera Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 150%;
+    color: #35424B;
+}
+.white-rectangle-fifth-s{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding: 32px 10px 32px 50px;
+    margin-bottom: 60px;
+}
+.white-rectangle-fifth-s img{
+    width: 32px;
+    height: 32px;
+}
+.white-rectangle-fifth-s p{
+    font-family: 'Cera Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #35424B;
+    margin: 0 0 0 24px;
+}
+#btn-fifth-s{
+    width: 469px;
+}
+.picture-fifth-s-mb{
+    display: none;
+}
+#sixth-section{
+    background: #fff;
+    padding: 120px 0;
+    position: relative;
+}
+.faq-item{
+    margin-bottom: 60px ;
+}
+.faq-item h6{
+    font-family: 'Cera Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #35424B;
+    text-decoration-line: none;
+}
+.faq-item p{
+    font-family: 'Cera Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #35424B;
+    margin: 20px 0 0 0;
+}
+#seventh-section{
+    padding: 120px 0 160px 0;
+    position: relative;
+}
+.sixth-section-content h2{
+    color: #35424B;
+    margin-bottom: 50px;
+}
+.description-seventh-s{
+    max-width: 500px;
+    margin: 40px 0 60px 0;
+}
+.text-with-btn-ixth-s{
+    display: flex;
+    align-items: center;
+}
+#seventh-s-btn{
+    width: 270px;
+}
+.text-with-btn-ixth-s p{
+    font-family: 'Cera Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 150%;
+    color: #35424B;
+    max-width: 250px;
+    margin: 0 0 0 30px;
+}
+.seventh-s-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    width: 100%;
+    height: 128px;
+    margin-bottom: 30px;
+}
+.seventh-s-box p{
+    max-width: 160px;
+    margin: 0 0 0 25px;
+}
+.seventh-s-box img{
+    margin: 0 0 0 15px;
+}
+.mb-seventh-s-boxs{
+    display: none;
+}
+footer{
+    background: #35424B;
+    padding: 120px 0;
+}
+.footer-description-review{
+    max-width: 218px;
+    font-family: 'Cera Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+.icon-with-text-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.icon-with-text-footer p{
+    margin: 0 0 0 30px;
+    font-family: 'Cera Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 150%;
+    color: #C5AB90;
+}
+#btn-vk{
+    width: 100%;
+    margin-bottom: 20px;
+}
+#btn-inst{
+    width: 100%;
+}
+.footer-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-btn span{
+    margin: 0 0 0 10px;
+    font-family: 'Cera Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.contact-info p{
+    font-family: 'Cera Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 200%;
+    color: #FFFFFF;
+}
+.contact-info a{
+    font-family: 'Cera Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 200%;
+    color: #FFFFFF;
+
+}
+.down-footer-info{
+    margin-top: 70px;
+}
+.company-info{
+    font-family: 'Cera Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 200%;
+    color: #FFFFFF;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-list a{
+    font-family: 'Cera Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 150%;
+    text-decoration-line: underline;
+    color: #C5AB90;
+}
+.third-li-footer{
+    padding-left: 18px;
+}
+.bg-text{
+    position: absolute;
+    z-index: -1;
+    bottom: -40px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.bg-text span{
+    font-family: 'Anglecia Pro Dsp', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 6.25rem;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+.br-mb-none{
+    display: none;
+}
+.br-mb-block-col-none{
+    display: none;
+}
+@media (max-width: 1527px){
+    .fourth-section-picture img{
+        position: absolute;
+        width: 100%;
+        top: 0;
+    }
+}
+@media (max-width: 1427px){
+    .bg-text{
+        bottom: -35px;
+    }
+    .bg-text span{
+        font-size: 5rem;
+    }
+}
+@media (max-width: 1250px){
+    .main-right-img img{
+        width: 100%;
+        right: 0;
+    }
+    .footer-btn span{
+        margin: 0 0 0 8px;
+    }
+    .bg-text{
+        bottom: -30px;
+    }
+    .bg-text span{
+        font-size: 4rem;
+    }
+}
+@media (max-width: 992px){
+    .br-lg{
+        display: none;
+    }
+    .main-right-img img{
+        width: 100%;
+        top: 60px;
+        right: 0;
+    }
+    html{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 2.71rem;
+    }
+    .main-description{
+        margin: 36px 0 60px 0;
+        max-width: 500px;
+    }
+    #down-content-gray-row-first-s{
+        flex-direction: column;
+    }
+    .gray-row-items{
+        display: flex;
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+    .btn{
+        width: 340px;
+        height: 60px;
+        background: #C5AB90;
+        border: none;
+        font-family: 'Cera Pro', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.125rem;
+        line-height: 150%;
+        text-align: center;
+        color: #fff;
+    }
+    .right-fourth-section{
+        display: none;
+    }
+    .fourth-section-picture-mb{
+        display: block;
+        width: 60%;
+    }
+    .fourth-s-description{
+        font-family: 'Cera Pro', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.25rem;
+        line-height: 150%;
+        color: #FFFFFF;
+        margin: 0 0 60px 0;
+    }
+    .picture-fifth-s img{
+        top: 100px;
+    }
+    #btn-fifth-s{
+        width: 360px;
+    }
+    .footer-btn span{
+        margin: 0 0 0 10px;
+    }
+    .bg-text{
+        bottom: -20px;
+    }
+    .bg-text span{
+        font-size: 3.5rem;
+    }
+}
+@media (max-width: 768px){
+    #first-section-content{
+        padding-top: 0;
+    }
+    #bg-left-first-screen{
+        width: 100%;
+    }
+    .main-right-img img{
+        display: none;
+    }
+    .main-picture-mb{
+        display: block;
+    }
+    #left-main{
+        display: flex;
+        justify-content: center;
+    }
+    .gray-row-items{
+        display: flex;
+        margin: 0;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .gray-row-item{
+        margin-top: 20px;
+    }
+    .right-second-s{
+        display: none;
+    }
+    .second-picture-s-mb{
+        margin-top: 30px;
+        display: block;
+    }
+    .left-second-s-content{
+        padding-right: 0;
+    }
+    .second-s-picture{
+        margin: 0;
+        width: 60%;
+    }
+    .main-content-third-s{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .item-list-third-s {
+        max-width: 600px;
+    }
+    .third-section-description{
+        margin: 40px 0 35px 0;
+    }
+    .bg-picture-third-s{
+        display: none;
+    }
+    .white-rectangle{
+        background: #fff;
+        padding: 30px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+    }
+    .white-rectangle p{
+        font-family: 'Cera Pro', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 150%;
+        color: #35424B;
+        margin: 20px 0 0 0;
+        text-align: center;
+    }
+    .fifth-s-right{
+        padding: 0;
+    }
+    .picture-fifth-s{
+        display: none;
+    }
+    .picture-fifth-s-mb{
+        display: block;
+        width: 50%;
+    }
+    .fifth-s-description{
+        max-width: 400px;
+    }
+    .seventh-s-boxs{
+        display: none;
+    }
+    .mb-seventh-s-boxs{
+        display: flex;
+        margin-bottom: 30px;
+    }
+    .seventh-s-box{
+        width: 40%;
+        margin: 0 30px 30px 0;
+    }
+    h6{
+        font-family: 'Cera Pro', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 200%;
+        text-decoration-line: underline;
+        color: #C5AB90;
+        margin: 0 0 0 0;
+    }
+    .first-footer-content{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .bg-text{
+        bottom: -15px;
+    }
+    .bg-text span{
+        font-size: 2.8rem;
+    }
+}
+@media (max-width: 576px){
+    html{
+        font-size: 12px;
+    }
+    .main-description{
+        margin: 30px 0 40px 0;
+        max-width: 500px;
+    }
+    .btn{
+        width: 340px;
+        height: 60px;
+        background: #C5AB90;
+        border: none;
+        font-family: 'Cera Pro', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.125rem;
+        line-height: 150%;
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .btn-with-text {
+        flex-direction: column;
+    }
+    .btn-with-text p{
+        margin: 20px 0 0 0;
+        padding: 0;
+        text-align: center;
+    }
+    .second-s-picture{
+        margin: 0;
+        width: 100%;
+    }
+    .col-br-none{
+        display: none;
+    }
+    .number-item-list-third-s{
+        margin-right: 20px;
+    }
+    .bx-check-double-fourth-s-item{
+        margin-bottom: 20px;
+    }
+    .text-fourth-s-right-btn{
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .btn-with-text-fourth-s {
+        margin-top: 20px;
+    }
+    .fourth-section-picture-mb{
+        width: 100%;
+    }
+    .white-rectangle-fifth-s{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 10px;
+    }
+    .white-rectangle-fifth-s p{
+        text-align: center;
+        margin: 0;
+    }
+    .picture-fifth-s-mb{
+        display: block;
+        width: 60%;
+    }
+    #btn-fifth-s{
+        width: 350px;
+    }
+    .seventh-s-box{
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    .mb-seventh-s-boxs{
+        display: block;
+        margin-bottom: 40px;
+    }
+    .text-with-btn-ixth-s{
+        display: flex;
+        flex-direction: column;
+    }
+    .text-with-btn-ixth-s p{
+        text-align: center;
+        margin: 13px 0 0 0;
+    }
+    h6{
+        font-family: 'Cera Pro', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 200%;
+        text-decoration-line: underline;
+        color: #C5AB90;
+        margin: 20px 0 0 0;
+    }
+    .first-footer-content{
+        display: flex;
+        justify-content: none;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .icon-with-text-footer{
+        margin-bottom: 40px;
+    }
+    .icon-with-text-footer p{
+        margin: 0 0 0 10px; 
+    }
+    .icon-with-text-footer img{
+        width: 30px
+    }
+    .footer-btn img{
+        width: 25px;
+    }
+    .down-footer-info{
+        margin-top: 30px;
+    }
+    .bg-text{
+        bottom: -10px;
+    }
+    .bg-text span{
+        font-size: 2.2rem;
+    }
+    #bg-picture{
+        width: 50%;
+    }
+    #fourth-btn{
+        max-width: 100%;
+    }
+    .br-mb-block-col-none{
+        display: block;
+    }
+}
+@media (max-width: 425px){
+    html{
+        font-size: 16px;
+    }
+    #header-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo img{
+        width: 100%;
+    }
+    #right-header-content{
+        margin-top: 20px;
+    }
+    .br-mb-block-col-none{
+        display: none;
+    }
+    .main-picture-mb{
+        display: block;
+        width: 100%;
+    }
+    .btn{
+        width: 100%;
+        height: 60px;
+        background: #C5AB90;
+        border: none;
+        font-family: 'Cera Pro', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1rem;
+        line-height: 150%;
+        text-align: center;
+        color: #fff;
+    }
+    .btn-with-text {
+        max-width: 100%;
+        margin: 0;
+    }
+    #btn-fifth-s{
+        width: 100%;
+    }
+    #seventh-s-btn{
+        width: 100%;
+    }
+    #left-main-conent {
+        padding: 60px 0 60px 0;
+    }
+    #second-section {
+        padding: 60px 0;
+    }
+    #third-section {
+        padding: 60px 0;
+    }
+    #fourth-section {
+        padding: 60px 0 60px 0;
+    }
+    #fifth-section {
+        padding: 60px 0;
+    }
+    #sixth-section {
+        padding: 60px 0;
+    }
+    #seventh-section {
+        padding: 60px 0 70px 0;
+    }
+    footer {
+        padding: 60px 0;
+    }
+    #left-main-conent {
+        padding: 44px 0 60px 0;
+    }
+    .main-description {
+        margin: 40px 0 50px 0;
+        width: 100%;
+    }
+     h1{
+        font-family: 'Anglecia Pro Dsp', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2rem;
+        line-height: 130%;
+        color: #35424B;
+    }
+    h2{
+        font-family: 'Anglecia Pro Dsp', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2rem;
+        line-height: 130%;
+        color: #35424B;
+    }
+
+    .bx-check-double p{
+        font-size: 1rem;
+    }
+    .main-description {
+        margin: 20px 0 30px 0;
+    }
+    .btn-with-text p{
+        margin: 10px 0 0 0;
+    }
+    #third-section-content h2{
+        margin-bottom: 30px;
+    }
+    .description-seventh-s {
+        max-width: 500px;
+        margin: 20px 0 30px 0;
+    }
+    .first-footer-content {
+        display: flex;
+        justify-content: none;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 40px;
+    }
+    .icon-with-text-footer {
+        justify-content: flex-start;
+    }
+}
+@media (max-width: 400px){
+    .picture-fifth-s-mb{
+        display: block;
+        width: 100%;
+    }
+}
+
